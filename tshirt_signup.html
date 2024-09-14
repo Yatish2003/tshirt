@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>SignUp</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* border-s: ; */
+            
+        }
+        .bgdiv{
+            /* background-image: url(login.jpg); */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .forms{
+            border: 5px solid,groove,double palegreen;
+            width: 25rem;
+            height: 20rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            background-color:rgba(245, 245, 245, 0.103);
+            /* margin: auto; */
+            /* margin-top: 100px; */
+        }
+        .forms input{
+            border-radius: 3px;
+            height: 1.7rem;
+            background-color: rgba(128, 128, 128, 0.2);
+            color: black;
+            /* outline: none; */
+            border: none;
+
+        }
+        
+        .btn{
+            background-color: rgba(128, 0, 128, 0.729);
+            height: 2rem;
+            width: 10rem;
+            border: none;
+            margin-bottom: 5px;
+        }
+        .btn2{
+            margin-top: 5px;
+            background-color: whitesmoke;
+        }
+        .fb{
+            border: 2px solid rgb(68, 68, 175);
+            height: 2rem;
+            width: 5rem;
+            background-color: white;
+        }
+        .gb{
+            border: 2px solid rgb(63, 111, 151);
+            height: 2rem;
+            width: 5rem;
+            background-color: whitesmoke;
+        }
+        i{
+            margin-right: 2px;
+        }
+        h1{
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        p{
+            text-align: center;
+        }
+        .form-content{
+            background-color: whitesmoke;
+            width: 100%;
+            height: inherit;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            
+            margin-left: 3px;      
+        }
+    </style>
+</head>
+<body>
+    <div class="bgdiv">
+        <div class="forms">
+            <div class="form-content">
+                <form action="" style="background-color: whitesmoke;">
+                    <h1>SignUp</h1><br>
+                    <input type="text" placeholder="Usernanme" required><br><br>
+                    <input type="email" placeholder="Email" required><br><br>
+                    <input type="password" placeholder="password" required><br><br>
+                    <button class="btn">Login</button><br>
+                    <p>Or login with</p>
+                    <div class="btn2">
+                        <button class="fb"><i class="fa-brands fa-facebook"></i>facebook</button>
+                        <button class="gb"> <i class="fa-brands fa-google"></i>Google</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

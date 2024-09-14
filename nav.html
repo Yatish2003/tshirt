@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="nav.css"> -->
+    <style>
+    *{
+      margin: 0px;
+      padding: 0px;
+
+    }
+      .nav{
+        background-color: blueviolet;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background: url(bg.jpg);
+        height: 100px;
+      }
+      .logo img{
+        height: 100px;
+
+
+        
+      }
+       .items{ 
+        background-color: white  ;
+        /* width: 500px; */
+         display: flex;
+         align-items: center   ;
+         justify-content:flex-end;
+      } 
+
+      .items ul li{
+        list-style-type:none ;
+        display: inline-block;
+        margin-left: 20px;
+        font-size: 25px;
+        color: bisque;
+        /* margin-top:20px ; */
+       
+
+      }
+      .btn1{
+        background-color: transparent;
+        height: 50px;
+        width: 100px;
+        border-radius: 20%;
+        padding:2px 5px ;
+        margin-top: 25px ;
+        margin-right: 10px;
+        font-size: 15px;
+        float: right;  
+        color:bisque ;
+       
+      }
+      .items ul li a{
+        color: bisque;
+        text-decoration-line: none;
+      }
+      .items ul li a:hover{
+        color:white ;
+      }
+
+       
+    </style>
+</head>
+<body>
+   <div class="nav">
+    <div class="logo"><img src="logo.jpg" alt=""></div>
+    <div class="items">
+      <ul>
+        <li><a href="HOME">HOME</a></li>
+        <li><a href="CONTACT">CONTACT</a></li>
+        <li><a href="ABOUT US">ABOUT US</a></li>
+      </ul>
+    </div>
+    <button class="btn1">Sign Up</button>
+   
+   </div>    
+</body>
+</html>
+
+
+
+
+
+        
